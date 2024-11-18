@@ -1,0 +1,128 @@
+body{
+    margin: 0;                             
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); 
+    background-size: 100%;               
+    background-position-y: -50px;         
+    background-attachment: fixed;       
+}
+
+header{
+    height: 100%;          
+    padding: 30px;       
+    text-align: right;    
+    color: rgb(0, 0, 91); 
+    font-size: 25px;       
+}
+
+h1{
+    padding-top: 50px;  
+    font-size: 80px;    
+    color:rgb(255, 255, 255); 
+}
+
+main{
+    height: 1000px;   
+    display: flex;
+}
+
+footer{
+    height: 100%;    
+    text-align: left;  
+    padding: 50px;   
+    color: white;  
+    font-size: 20px;  
+}
+
+.social{
+    list-style: none; 
+    display: flex; 
+    align-items: left;
+    justify-content: left; 
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.block1{
+    width: 25%;
+    height: 100%;
+    background-color: brown;
+}
+
+.block2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(163, 165, 42);
+}
+
+.block3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(110, 42, 165);
+}
+
+.block4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(42, 63, 165);
+}
+.nav{
+    position: sticky;
+    left: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: aquamarine;
+    padding: 8px 16px;
+    float: left;
+}
+.nav a :hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: aqua;
+}
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: aquamarine;
+    color: blue;
+    padding: 15px 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    box-shadow: 20px 8px 16px black;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: brown;
+    color: blue;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px;
+}
